@@ -1,0 +1,95 @@
+body{
+    background-color:#313334;
+    color: white
+}
+
+.head{
+    background-color:rgb(0, 0, 0);
+    padding:10px;
+    color:cyan;
+
+}
+
+.navbar{
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    background-color:black;
+    padding: 10px;
+    border: 1px solid cyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    text-align: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin:2%;
+    font-weight: 500;
+    color: cyan;
+    
+}
+
+.navbar a:hover{
+    color:white;
+    background-color:black;
+    border: 2px solid cyan;
+    box-shadow: 5px 5px 5px cyan;
+}
+
+.content{
+    border-radius:20px;
+    box-shadow:10px 10px 10px;
+    background-color:#111; 
+    padding: 15px;
+}
+
+h2{
+    border: 2px solid cyan;
+    padding: 10px;
+    border-radius:20px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+#states {
+    padding: 20px;
+    background-color: #e6f7ff; /* Light blue background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+#states ol li a {
+    text-decoration: none;
+    color: white
+}
+
+#states ol li a:hover {
+    text-decoration: underline;
+    color: #ff6600;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact a{
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    color:white;
+    background-color:black;
+    border: 2px solid cyan;
+    box-shadow: 10px 10px 10px cyan;
+}
