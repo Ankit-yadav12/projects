@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+#main #navbar {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 0 30px;
+}
+#main #navbar .links {
+  text-decoration: none;
+  font: 23px "sans-serif";
+  font-weight: 600;
+  color: black;
+}
+#main #navbar i {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: 600;
+  margin: 5px;
+}
+#main #tagline {
+  width: 100%;
+  padding: 5px 80px;
+}
+#main #tagline h1 {
+  font-size: 4.1vw;
+  font-weight: 500;
+  line-height: 4.4vw;
+}
+#main #tagline #text {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 100%;
+  margin-top: 15px;
+}
+#main #tagline #text p {
+  font-size: 1.1vw;
+  line-height: 1.8vw;
+  font-weight: 600;
+}
+#main #tagline #text #right {
+  width: 20%;
+}
+#main #tagline #text #right .elem {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-top: 2px solid black;
+}
+#main #tagline #text #right .elem a {
+  margin: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+#main #tagline #text #right .elem i {
+  font-size: 25px;
+  font-weight: 500;
+  opacity: 0;
+}
+#main #tagline #text #right .elem:hover i {
+  opacity: 1;
+}
+#main #tagline #text #right .elem:hover {
+  background-color: rgb(244, 241, 241);
+}
+#main #tagline #text #right .elem:hover a {
+  text-decoration: underline;
+}
+#main #bottom {
+  height: 36%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-image: url(https://images.unsplash.com/photo-1508418717103-8b56bcf03360?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 0 25%;
+}
+
+@media (max-width: 600px) {
+  html, body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #main #navbar {
+    height: 50px;
+    gap: 0px;
+    padding: 20px;
+  }
+  #main #navbar .links {
+    display: none;
+  }
+  #main #navbar i {
+    margin: 0 15px;
+  }
+  #main #tagline {
+    padding: 0px 0px;
+  }
+  #main #tagline h1 {
+    padding: 20px 30px;
+    font-size: 11vw;
+    line-height: 13vw;
+  }
+  #main #tagline #text {
+    width: 100%;
+    gap: 40px;
+    padding: 0 25px 0 0;
+    flex-direction: column;
+  }
+  #main #tagline #text p {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+  }
+  #main #tagline #text #right {
+    width: 100%;
+  }
+  #main #tagline #text #right .elem {
+    padding: 5px 20px;
+  }
+  #main #tagline #text #right .elem a {
+    margin: 2px;
+    font-size: 1rem;
+    color: rgb(43, 40, 40);
+  }
+  #main #tagline #text #right .elem i {
+    font-size: 1rem;
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,152 @@
+@mixin headings{
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:3.6rem;
+}
+
+@mixin texts{
+    font-size:1.4rem;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:2rem;
+}
+
+@keyframes marquee{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:#FDFBF5;
+    color: rgb(0, 0, 0);
+
+    main{
+        margin:.7rem;
+        border:1px solid white;
+        padding:25px;
+
+        .lines{
+            width: 100%;
+            height:1px;
+            background-color: gray;
+            margin-top:1.5rem;
+        }
+
+        .navbar{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .left-nav{
+                gap: .7rem;
+                display: flex;
+                align-items: center;
+
+                h1{
+                    font-size:2rem;
+                    font-weight: 400;
+                }
+            }
+
+            .right-nav{
+                gap:1.2rem;
+                display: flex;
+                align-items: center;
+
+                #mode{
+                    width: 60px;
+                }
+            }
+
+            .icons{
+                width: 40px;
+                height: 50px;
+                background-color:gray;
+            }
+        }
+
+        #view1{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap:1.5rem;
+
+            .icon1{
+                margin:1.7rem 0;
+                width: 3rem;
+                height:4rem;
+                background-color:gray;
+            }
+
+            .heading1{
+                @include headings()
+            }
+
+            .text1{
+                @include texts()
+            }
+
+            .img1{
+                width: 100%;
+                border-radius: 1rem;
+
+                video{
+                    width: 100%;
+                    border-radius: 1rem;
+                }
+            
+            }
+
+        }
+
+        #view2{
+            padding:.6rem;
+
+            h1{
+                font-weight: 300;
+                padding:2rem;
+                font-size: 1.3rem;
+                text-align:center;
+            }
+
+            .marquee{
+                display:flex;
+                gap:2rem;
+                overflow:hidden;
+                width: 100%;
+                position: relative;
+
+                .items{
+                    display:flex;
+                    gap:2rem;
+                    animation:marquee 15s linear infinite both;
+
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        
+                    }
+                }
+            }
+        } 
+        
+        #view3{
+            
+        }
+    }
+}

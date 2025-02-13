@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.name {
+  text-align: center;
+  text-shadow: 0 10px 10px cyan;
+  background-color: black;
+  color: cyan;
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  width: 100%;
+  height: 7vh;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  height: auto;
+  gap: 4px;
+  display: grid;
+  grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i" "j";
+}
+.container .image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 2px solid rgb(3, 247, 255);
+  padding: 2%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.container .image:hover {
+  scale: 1.5;
+  overflow: hidden;
+  box-shadow: 0 0 50px cyan;
+  border: 2px solid cyan;
+}
+.container #a {
+  grid-area: a;
+}
+.container #j {
+  grid-area: j;
+}
+
+@media screen and (min-width: 1080px) {
+  .container {
+    grid-template-areas: "a a b c" "a a d e" "f g j j" "h i j j";
+  }
+}/*# sourceMappingURL=style.css.map */
