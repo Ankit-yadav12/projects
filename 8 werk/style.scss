@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  font-family: monospace;
+  width: 100%;
+  padding: 1.5rem;
+
+  #hero-text {
+    padding-top: 2rem;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+
+    #s1 {
+      padding: 0.8rem 0;
+      display: flex;
+      justify-content: space-between;
+      font-family: monospace;
+
+      p {
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  #sec1 {
+    width: 100%;
+
+    .img {
+      padding-top: 1rem;
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    #sec101 {
+      padding-top: 1.5rem;
+
+      #txt101 {
+        font-family: Calibri, "Trebuchet MS", sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: 3em;
+        line-height: 2.7rem;
+      }
+
+      #txt102 {
+        padding-top: 1.3rem;
+        font-size: 1.23rem;
+        line-height: 1.7rem;
+        font-weight: 0;
+      }
+
+      #skills {
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        .skills1:nth-child(1) {
+          border: none;
+        }
+
+        .skills1 {
+          border-top: 1px solid rgba(0, 0, 0, 0.153);
+          padding: 1rem 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .nums {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont,
+              "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+              "Helvetica Neue", sans-serif;
+            font-size: 1.8em;
+            font-weight: 400;
+          }
+
+          .txt103 {
+            text-transform: uppercase;
+            font-size: 2.5em;
+            font-weight: 100;
+          }
+        }
+      }
+    }
+  }
+
+  #sec2 {
+    padding: 1rem 0;
+    width: 100%;
+
+    .sec201 {
+      width: 100%;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    #sec202 {
+      width: 100%;
+      padding: 1.5rem 0;
+      gap: 2rem;
+      display: flex;
+
+      #txt201 {
+        text-transform: uppercase;
+        writing-mode: vertical-lr;
+        font-size: 1.3em;
+      }
+
+      .div201 {
+        #txt202 {
+          padding-bottom: 1.5rem;
+          font-family: segoe UI;
+          text-transform: uppercase;
+          font-size: 3.1em;
+          font-weight: 380;
+          line-height: 3rem;
+        }
+
+        #txt203 {
+          font-family: segoe UI;
+          font-weight: 100;
+          font-size: 1.3em;
+          letter-spacing: 2px;
+          line-height: 2rem;
+        }
+      }
+    }
+  }
+
+  #sec3 {
+    width: 100%;
+
+    #box1{
+      h1 {
+        padding: 1rem 0;
+        font-family: segoe UI;
+        text-transform: uppercase;
+        font-size: 3em;
+        font-weight: 400;
+      }
+  
+      .sec301 {
+        font-family: system-ui;
+        padding: 0.5rem 0;
+        border-top: 2px solid rgba(0, 0, 0, 0.077);
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+  
+        h2 {
+          padding: 0.5rem 0;
+          text-transform: uppercase;
+          font-size: 1.6em;
+          font-weight: 450;
+        }
+      }
+  
+      p {
+        font-size: 1.2em;
+        font-weight: 100;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+      }
+  
+      .sec302 {
+        padding:1rem 0;
+        display: flex;
+          gap: 1rem;
+        width: 100%;
+        align-items: center;
+  
+        .img201 {
+          
+          width: 2.5rem;
+          height: 2.5rem;
+          border-radius: 50%;
+          background-color:white;
+  
+          img{
+            transform:rotate(60deg);
+            width:100%;
+            // object-fit: contain;
+            object-position: center;
+          }
+        }
+  
+        p{
+          text-transform:uppercase;
+          font-size: .9em;
+          font-weight: 400;
+        }
+      }
+    }
+
+    #box2{
+      width:100%;
+
+      img{
+        width:100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+
+  #sec4{
+    width:100%;
+    padding:1rem 0;
+
+    h1{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+      font-size:2.7em;
+      line-height:1rem;
+      text-transform:uppercase;
+      font-weight: 450;
+      padding:1rem 0;
+    }
+
+    .sec401{
+      padding:1.5rem 0;
+      width:100%;
+
+      .img401{
+        width:100%;
+        
+        img{
+          width:100%;
+        }
+      }
+
+      #img402{
+        img{
+          display:none
+        }
+      }
+
+      .sec402{
+        padding:1.2rem 0;
+        width:100%;
+
+        h2{
+          padding:.5rem 0;
+          text-transform:uppercase;
+          font-size: 3.3em;
+          font-weight: 200;
+        }
+
+        p{
+          font-size: 1.3em;
+          font-weight:500;
+          line-height: 1.7rem;
+        }
+
+        .sec403 {
+          padding:1rem 0;
+          display: flex;
+            gap: 1rem;
+          width: 100%;
+          align-items: center;
+    
+          .img401 {
+            
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            background-color:white;
+    
+            img{
+              transform:rotate(60deg);
+              width:100%;
+              // object-fit: contain;
+              object-position: center;
+            }
+          }
+    
+          p{
+            text-transform:uppercase;
+            font-size: 1.2em;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  #sec5{
+    width:100%;
+    padding:2rem 0;
+
+    h1{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+      font-size:5.5em;
+      line-height:4rem;
+      text-transform:uppercase;
+      font-weight: 450;
+      padding:2rem 0;
+    }
+
+    .sec502{
+      padding:1rem 0;
+      width:100%;
+      border-top: 1px solid rgba(0, 0, 0, 0.173);
+      p{
+        font-size: 1.5em;
+        line-height: 2rem;
+        font-weight: 300;
+        text-transform:uppercase;
+      }
+  
+      h3{
+        font-family:Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.8em;
+        font-weight: 100;
+        text-transform: uppercase;
+      }
+    }
+
+    .sec502:nth-child(1){
+      border:none;
+    }
+  }
+
+  #sec6{
+    width:100%;
+
+    #sec601{
+      padding:1rem 0;
+
+      h1{
+        border-top:1px solid rgba(0, 0, 0, 0.184);
+        padding:.8rem 0;
+        font-family:segoe UI;
+        font-size: 3.3em;
+        text-transform:uppercase;
+        font-weight:370;
+      }
+  
+      p{
+        line-height:2rem;
+        font-size: 1.4em;
+        letter-spacing:1px;
+      }
+  
+    }
+
+    #sec602{
+      padding:1.5rem 0;
+      width:100%;
+
+      .sec603{
+        padding:1rem 0;
+        width:100%;
+        
+        h3{
+          font-size:1.8em;
+          font-family:segoe UI;
+          font-weight:400;
+          text-transform:uppercase;
+        }
+
+        .img601{
+          width:1005;
+
+          img{
+            width:100%;
+          }
+        }
+        .sec604{
+          width:100%;
+
+          h4{
+            text-transform:uppercase;
+            font-size:1.5em;
+            font-weight:200;
+          }
+        }
+
+        p{
+          font-weight: 100;
+          color:gray;
+          line-height:1.5rem;
+          font-size: 1.2em;
+          letter-spacing:1px;
+        }
+      }
+    }
+  }
+}
+
+footer{
+  #sec7{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding:4rem 1%;
+    background-color: black;
+    color:white;
+    text-align: center;
+
+    h1{
+      font-family: segoe UI;
+      text-transform:uppercase;
+      font-size: 3.8em;
+      font-weight: 400;
+      line-height: 2.5rem;
+    }
+
+    h2{
+      font-family: segoe UI;
+      font-weight: 400;
+      text-transform:uppercase;
+      font-size:2.7em;
+      line-height:3rem;
+      padding:1.5rem 0;
+    }
+
+    button{
+      font-family: segoe UI;
+      text-transform:uppercase;
+      width:fit-content;
+      font-size: 1em;
+      padding:.5rem 1.5rem;
+      border-radius: 20px;
+
+    }
+    
+  }
+}

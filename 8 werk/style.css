@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  font-family: monospace;
+  width: 100%;
+  padding: 1.5rem;
+}
+main #hero-text {
+  padding-top: 2rem;
+  width: 100%;
+}
+main #hero-text img {
+  width: 100%;
+}
+main #hero-text #s1 {
+  padding: 0.8rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+}
+main #hero-text #s1 p {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+main #sec1 {
+  width: 100%;
+}
+main #sec1 .img {
+  padding-top: 1rem;
+  width: 100%;
+}
+main #sec1 .img img {
+  width: 100%;
+}
+main #sec1 #sec101 {
+  padding-top: 1.5rem;
+}
+main #sec1 #sec101 #txt101 {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 3em;
+  line-height: 2.7rem;
+}
+main #sec1 #sec101 #txt102 {
+  padding-top: 1.3rem;
+  font-size: 1.23rem;
+  line-height: 1.7rem;
+  font-weight: 0;
+}
+main #sec1 #sec101 #skills {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+main #sec1 #sec101 #skills .skills1:nth-child(1) {
+  border: none;
+}
+main #sec1 #sec101 #skills .skills1 {
+  border-top: 1px solid rgba(0, 0, 0, 0.153);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #sec1 #sec101 #skills .skills1 .nums {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.8em;
+  font-weight: 400;
+}
+main #sec1 #sec101 #skills .skills1 .txt103 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 100;
+}
+main #sec2 {
+  padding: 1rem 0;
+  width: 100%;
+}
+main #sec2 .sec201 {
+  width: 100%;
+}
+main #sec2 .sec201 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main #sec2 #sec202 {
+  width: 100%;
+  padding: 1.5rem 0;
+  gap: 2rem;
+  display: flex;
+}
+main #sec2 #sec202 #txt201 {
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  font-size: 1.3em;
+}
+main #sec2 #sec202 .div201 #txt202 {
+  padding-bottom: 1.5rem;
+  font-family: segoe UI;
+  text-transform: uppercase;
+  font-size: 3.1em;
+  font-weight: 380;
+  line-height: 3rem;
+}
+main #sec2 #sec202 .div201 #txt203 {
+  font-family: segoe UI;
+  font-weight: 100;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  line-height: 2rem;
+}
+main #sec3 {
+  width: 100%;
+}
+main #sec3 #box1 h1 {
+  padding: 1rem 0;
+  font-family: segoe UI;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 400;
+}
+main #sec3 #box1 .sec301 {
+  font-family: system-ui;
+  padding: 0.5rem 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.077);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main #sec3 #box1 .sec301 h2 {
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  font-weight: 450;
+}
+main #sec3 #box1 p {
+  font-size: 1.2em;
+  font-weight: 100;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+main #sec3 #box1 .sec302 {
+  padding: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+}
+main #sec3 #box1 .sec302 .img201 {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+}
+main #sec3 #box1 .sec302 .img201 img {
+  transform: rotate(60deg);
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+}
+main #sec3 #box1 .sec302 p {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+main #sec3 #box2 {
+  width: 100%;
+}
+main #sec3 #box2 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main #sec4 {
+  width: 100%;
+  padding: 1rem 0;
+}
+main #sec4 h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  font-size: 2.7em;
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-weight: 450;
+  padding: 1rem 0;
+}
+main #sec4 .sec401 {
+  padding: 1.5rem 0;
+  width: 100%;
+}
+main #sec4 .sec401 .img401 {
+  width: 100%;
+}
+main #sec4 .sec401 .img401 img {
+  width: 100%;
+}
+main #sec4 .sec401 #img402 img {
+  display: none;
+}
+main #sec4 .sec401 .sec402 {
+  padding: 1.2rem 0;
+  width: 100%;
+}
+main #sec4 .sec401 .sec402 h2 {
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+  font-size: 3.3em;
+  font-weight: 200;
+}
+main #sec4 .sec401 .sec402 p {
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+main #sec4 .sec401 .sec402 .sec403 {
+  padding: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+}
+main #sec4 .sec401 .sec402 .sec403 .img401 {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+}
+main #sec4 .sec401 .sec402 .sec403 .img401 img {
+  transform: rotate(60deg);
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+}
+main #sec4 .sec401 .sec402 .sec403 p {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+main #sec5 {
+  width: 100%;
+  padding: 2rem 0;
+}
+main #sec5 h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  font-size: 5.5em;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-weight: 450;
+  padding: 2rem 0;
+}
+main #sec5 .sec502 {
+  padding: 1rem 0;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.173);
+}
+main #sec5 .sec502 p {
+  font-size: 1.5em;
+  line-height: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+main #sec5 .sec502 h3 {
+  font-family: Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.8em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+main #sec5 .sec502:nth-child(1) {
+  border: none;
+}
+main #sec6 {
+  width: 100%;
+}
+main #sec6 #sec601 {
+  padding: 1rem 0;
+}
+main #sec6 #sec601 h1 {
+  border-top: 1px solid rgba(0, 0, 0, 0.184);
+  padding: 0.8rem 0;
+  font-family: segoe UI;
+  font-size: 3.3em;
+  text-transform: uppercase;
+  font-weight: 370;
+}
+main #sec6 #sec601 p {
+  line-height: 2rem;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+}
+main #sec6 #sec602 {
+  padding: 1.5rem 0;
+  width: 100%;
+}
+main #sec6 #sec602 .sec603 {
+  padding: 1rem 0;
+  width: 100%;
+}
+main #sec6 #sec602 .sec603 h3 {
+  font-size: 1.8em;
+  font-family: segoe UI;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+main #sec6 #sec602 .sec603 .img601 {
+  width: 1005;
+}
+main #sec6 #sec602 .sec603 .img601 img {
+  width: 100%;
+}
+main #sec6 #sec602 .sec603 .sec604 {
+  width: 100%;
+}
+main #sec6 #sec602 .sec603 .sec604 h4 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+main #sec6 #sec602 .sec603 p {
+  font-weight: 100;
+  color: gray;
+  line-height: 1.5rem;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+footer #sec7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 4rem 1%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+footer #sec7 h1 {
+  font-family: segoe UI;
+  text-transform: uppercase;
+  font-size: 3.8em;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+footer #sec7 h2 {
+  font-family: segoe UI;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 2.7em;
+  line-height: 3rem;
+  padding: 1.5rem 0;
+}
+footer #sec7 button {
+  font-family: segoe UI;
+  text-transform: uppercase;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1em;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
