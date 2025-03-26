@@ -1,0 +1,49 @@
+body, html {
+  background-color: #1f1f1f;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: wheat;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+body #box {
+  border-radius: 20%;
+  border: 10px solid rgb(255, 255, 255);
+  width: 200px;
+  height: 200px;
+  background-color: rgb(51, 228, 228);
+}
+body #colorCode {
+  text-align: center;
+  color: RGB(102, 255, 148);
+  background-color: RGB(141, 27, 10);
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 0 15px;
+}
+body .btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(67, 236, 222);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+body .btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: cyan;
+  box-shadow: 0 0 10px cyan;
+}/*# sourceMappingURL=style.css.map */
