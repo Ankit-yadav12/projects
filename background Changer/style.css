@@ -21,11 +21,12 @@ body #box {
   width: 200px;
   height: 200px;
   background-color: rgb(51, 228, 228);
+  transition: transform 0.5s ease-in-out;
 }
 body #colorCode {
   text-align: center;
   color: RGB(102, 255, 148);
-  background-color: RGB(141, 27, 10);
+  background-color: black;
   width: 150px;
   height: 30px;
   font-size: 20px;
@@ -40,10 +41,13 @@ body .btn {
   background-color: rgb(67, 236, 222);
   color: rgb(0, 0, 0);
   font-size: 18px;
-  transition: background-color 0.3s ease;
+  transition: background-color 5s ease-in-out;
 }
 body .btn:hover {
   background-color: rgba(0, 0, 0, 0.8);
   color: cyan;
   box-shadow: 0 0 10px cyan;
+}
+body .btn:active {
+  scale: 0.95;
 }/*# sourceMappingURL=style.css.map */
