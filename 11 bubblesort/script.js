@@ -30,21 +30,6 @@ btn2.addEventListener('click', function(){
     box3.appendChild(newElement);
     newElement.innerText = input;
 
-    //creating the index elemnts in html
-    let newI = document.createElement('i');
-    newI.innerText = i;
-    newI.className = 'element';
-    newI.id= `i${index}`;
-    box3.appendChild(newI);
-    newI.innerText = input;
-
-    let newJ = document.createElement('j');
-    newJ.className = 'element';
-    newJ.innerText = j;
-    newJ.id= `j${index}`;
-    box3.appendChild(newJ);
-    newJ.innerText = input;
-
     //checks if all the elements are entered
     index++;
     if(index>size){
@@ -66,19 +51,10 @@ async function bubbleSort() {
         for (let j = 0; j < size - i - 1; j++) {
             let elem1 = document.querySelector(`#arrayDisplay #element${j + 1}`);
             let elem2 = document.querySelector(`#arrayDisplay #element${j + 2}`);
-            let indexI = document.querySelector('#i #i${i+1}')
-            let indexJ = document.querySelector('#j #j${j+1}')
-            let indexJ1 = document.querySelector('#j #j${j+2}')
 
             // Highlight elements being compared
             elem1.style.backgroundColor = 'red';
             elem2.style.backgroundColor = 'red';
-            indexI.style.backgroundColor = 'cyan';
-            indexI.innerText = `i=${i}`;
-            indexJ.style.backgroundColor = 'cyan';
-            indexJ.innerText = `j=${j}`;
-            indexJ1.style.backgroundColor = 'cyan';
-            indexJ1.innerText = `j=${j+1}`;
 
             await delay(800); // Add delay to show comparison
 

@@ -1,0 +1,49 @@
+html{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:100vh;
+    background-color:darkcyan;
+}
+body{
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    color:wheat;
+}
+
+header{
+    display:flex;
+    justify-items: center;;
+    position:fixed;
+    top:50px;
+    text-align: center;
+
+}
+
+header .head{
+    font-size: 2rem;
+}
+
+main .box1{
+    text-align: center;
+    border:2px solid gold;
+    font-size: 1.5rem;
+    padding: 50px 10px;
+}
+
+main form{
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#input{
+    margin:5px 50px;
+}
