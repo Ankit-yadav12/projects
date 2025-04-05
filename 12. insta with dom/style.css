@@ -1,0 +1,109 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: white;
+}
+body header #head {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: violet;
+  height: 2rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body header #head p {
+  margin: 0;
+  padding: 0;
+}
+body main {
+        width:      100%;
+    height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main #section1 {
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+body main #section1 .status {
+  width: 50px;
+  height: 50px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: gray;
+}
+body main #section101 {
+  width: 100vw;
+}
+body main #section101 .story {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  display: none;
+}
+body main #section2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body main #section2 .friend {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+  width: 80%;
+  height: 290px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+}
+body main #section2 .friend h3 {
+  padding: 5px;
+  margin: 0;
+  font-size: 1.5rem;
+}
+body main #section2 .friend p {
+  margin: 0;
+  padding: 10px;
+  font-size: 1.4rem;
+  color: red;
+  font-weight: 800;
+}
+body main #section2 .friend .sr {
+  border: 1px solid black;
+  background-color: rgb(37, 214, 37);
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+body main #section2 .friend .img {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: gray;
+}
+body main #section2 .friend .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
