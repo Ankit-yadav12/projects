@@ -49,14 +49,14 @@ img2.addEventListener('dblclick',function(){
 //btn2
 btn2.addEventListener('click',function(){
     //button animation
-    btn.style.scale='0.9';
+    btn2.style.scale='0.9';
     setTimeout(function(){
-        btn.style.scale='1';
+        btn2.style.scale='1';
     },100);
 
     //image generation
-    let x = Math.floor(Math.random() * 90);
-    let y = Math.floor(Math.random() * 95);
+    let x = Math.floor(Math.random() * 80);
+    let y = Math.floor(Math.random() * 85);
     let z = Math.floor(Math.random() * 361);
 
     let img = document.createElement('img');
@@ -86,3 +86,4 @@ btn2.addEventListener('mouseover',function(){
 btn2.addEventListener('mouseout', function () {
     btn2.style.boxShadow = 'none';
 });
+
